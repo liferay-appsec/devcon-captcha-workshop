@@ -1,0 +1,13 @@
+assemble:
+    -   from: build/static
+        into: static
+liferay-devcon-really-simple-captcha-custom-element:
+    friendlyURLMapping: liferay-devcon-really-simple-captcha-custom-element
+    htmlElementName: liferay-devcon-really-simple-captcha-custom-element
+    instanceable: false
+    name: Liferay DevCon Really Simple CAPTCHA Custom Element
+    portletCategoryName: category.client-extensions
+    type: customElement
+    urls:
+        -   index.*.js
+    useESM: true

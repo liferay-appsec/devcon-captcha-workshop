@@ -1,0 +1,13 @@
+liferay-devcon-really-simple-captcha-etc-spring-boot:
+    captchaName: Really Simple Captcha CX
+    captchaResponseParameterName: really-simple-captcha-response
+    customElementExternalReferenceCode: LXC:liferay-devcon-really-simple-captcha-custom-element
+    name: Liferay Really Simple Captcha Etc Spring Boot
+    oAuth2ApplicationExternalReferenceCode: liferay-devcon-really-simple-captcha-etc-spring-boot-oaua
+    resourcePath: /validation
+    type: captcha
+liferay-devcon-really-simple-captcha-etc-spring-boot-oaua:
+    .serviceAddress: localhost:58083
+    .serviceScheme: http
+    name: Liferay Really Simple Captcha Etc Spring Boot OAuth Application User Agent
+    type: oAuthApplicationUserAgent

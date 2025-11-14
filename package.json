@@ -2,8 +2,9 @@
     "private": true,
     "workspaces": {
         "packages": [
-            "client-extensions/global-red-header",
-            "client-extensions/liferay-recaptcha-custom-element"
+            "client-extensions/liferay-recaptcha-custom-element",
+            "client-extensions/liferay-hcaptcha-custom-element",
+            "client-extensions/liferay-devcon-really-simple-captcha-custom-element"
         ]
     }
 }
