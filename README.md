@@ -38,7 +38,7 @@ Before you begin, ensure you have the following installed:
 
 ## 1\. Initialize and Run Liferay
 
-First, you need to download and start a Liferay bundle associated with this workspace.
+First, you need to download and start a Liferay bundle associated with this workspace, see the [gradle.properties](https://github.com/liferay-appsec/devcon-captcha-workshop/blob/main/gradle.properties).
 
 1.  **Initialize the Liferay Bundle:**
     Run the following command from the root of the workspace to download the Liferay server:
