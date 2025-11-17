@@ -144,7 +144,7 @@ The ALTCHA solution requires **two** separate backend services to be running:
 
 **1. Run the External Challenge Server**
 
-This server generates the ALTCHA challenge. You will need to run the `altcha-starter-java` project provided.
+This server generates the ALTCHA challenge. You will need to run the `altcha-starter-java` project locally, see https://github.com/altcha-org/altcha-starter-java.
 
 * In a new terminal, navigate to the `altcha-starter-java` directory (e.g., `altcha-org/altcha-starter-java/altcha-starter-java-e73a78433178894ad1c088178c28ec442664a8d7`).
 * Set the secret HMAC key as an environment variable. This key *must* be shared with the Liferay validation service.
