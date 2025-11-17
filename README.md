@@ -1,7 +1,3 @@
-Here is the updated README, now including the new ALTCHA captcha solution.
-
------
-
 # Liferay CAPTCHA Client Extensions Workspace
 
 This repository is a Liferay workspace containing a set of client extensions to integrate various CAPTCHA solutions into Liferay.
