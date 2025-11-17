@@ -1,0 +1,13 @@
+assemble:
+    -   from: build/static
+        into: static
+liferay-altcha-custom-element:
+    friendlyURLMapping: liferay-altcha-custom-element
+    htmlElementName: liferay-altcha-custom-element
+    instanceable: false
+    name: Liferay Altcha Custom Element
+    portletCategoryName: category.client-extensions
+    type: customElement
+    urls:
+        -   index.*.js
+    useESM: true

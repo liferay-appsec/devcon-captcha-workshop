@@ -1,0 +1,13 @@
+liferay-altcha-etc-spring-boot:
+    captchaName: Altcha CX
+    captchaResponseParameterName: altcha
+    customElementExternalReferenceCode: LXC:liferay-altcha-custom-element
+    name: Liferay Altcha Etc Spring Boot
+    oAuth2ApplicationExternalReferenceCode: liferay-altcha-etc-spring-boot-oaua
+    resourcePath: /validation
+    type: captcha
+liferay-altcha-etc-spring-boot-oaua:
+    .serviceAddress: localhost:58084
+    .serviceScheme: http
+    name: Liferay Altcha Etc Spring Boot OAuth Application User Agent
+    type: oAuthApplicationUserAgent
