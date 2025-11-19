@@ -50,7 +50,6 @@ public class ValidationRestController extends BaseRestController {
 
 		body.add("remoteip", jsonObject.getString("remoteip"));
 		body.add("response", jsonObject.getString("response"));
-
 		body.add("secret", _secret);
 
 		HttpHeaders httpHeaders = new HttpHeaders();
@@ -68,6 +67,9 @@ public class ValidationRestController extends BaseRestController {
 			responseJSONObject.put(
 				"error-codes",
 				siteVerifyJSONObject.getJSONArray("error-codes"));
+
+			return new ResponseEntity<>(
+					responseJSONObject.toString(), HttpStatus.BAD_REQUEST);
 		}
 
 		responseJSONObject.put(

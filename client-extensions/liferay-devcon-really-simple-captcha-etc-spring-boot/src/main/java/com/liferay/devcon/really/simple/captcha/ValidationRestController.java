@@ -33,12 +33,20 @@ public class ValidationRestController extends BaseRestController {
 
 		JSONObject jsonObject = new JSONObject(json);
 
-		responseJSONObject.put(
-			"success", Objects.equals(
-				jsonObject.getString("response"), "true" ));
+		if (Objects.equals(
+				jsonObject.getString("response"), "true" )) {
 
+			responseJSONObject.put(
+					"success", Boolean.TRUE.toString());
+
+			return new ResponseEntity<>(
+					responseJSONObject.toString(), HttpStatus.OK);
+		}
+
+		responseJSONObject.put(
+				"error-codes", "You are not a human!!" );
 		return new ResponseEntity<>(
-			responseJSONObject.toString(), HttpStatus.OK);
+				responseJSONObject.toString(), HttpStatus.BAD_REQUEST);
 	}
 
 }
